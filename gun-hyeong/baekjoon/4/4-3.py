@@ -12,4 +12,3 @@ if n >= 0 and n <= 99 :
         if (n == n1):
             break
     print(cycle) 
-    

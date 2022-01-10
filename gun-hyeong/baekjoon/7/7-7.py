@@ -1,6 +1,4 @@
-number = input()
-
-split_number = number.split(" ")
+split_number = input().split(" ")
 
 for i in range(len(split_number)):
     
