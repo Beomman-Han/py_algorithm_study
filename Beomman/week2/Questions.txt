@@ -1,6 +1,5 @@
 Chapter 1 (garbage collection, python script executing process)
 Q1) Main script does not have .pyc script...
-	See below page
 	https://stackoverflow.com/questions/27730889/cant-seem-to-find-pyc-files/27735336#27735336
 Q2) **Python GC process?
 	Reference counting 위주, 그러나 reference counting으로 해결되지 않는 상황이 있음 (순환 참조, generational garbage collection 방식)
