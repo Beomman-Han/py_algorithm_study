@@ -1,0 +1,3 @@
+User defined classes are mutable? or immutable?
+https://stackoverflow.com/questions/12076445/are-user-defined-classes-mutable
+https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types/8056288#8056288
