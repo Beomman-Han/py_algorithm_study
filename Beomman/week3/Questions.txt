@@ -1,0 +1,6 @@
+## Q1) Multiple returns from lambda function?
+## > https://stackoverflow.com/questions/16674004/python-can-lambda-have-more-than-one-return
+
+## Q2) how to write type hinting for generator function ?
+## > https://docs.python.org/3.6/library/typing.html#typing.Generator
+
