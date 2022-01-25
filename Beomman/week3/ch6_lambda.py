@@ -45,3 +45,4 @@ print(fac3(2))
 f1 = lambda n1, n2: (n1 * n2, n1 + n2)
 mul, add = f1(3, 4)
 print(mul, add)
+
