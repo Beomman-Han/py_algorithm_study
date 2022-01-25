@@ -12,4 +12,4 @@ Week 3-2 (1/20) : Study skip. HW)
 
 Week 4 (1/25) : 열혈 파이썬 Story23-34 공부 및 예시
 
-Week 5 (2/4) : 열혈 파이썬 Story23-34 공부 및 예시
+Week 5 (2/4) : 열혈 파이썬 Story23-34 리뷰
