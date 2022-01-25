@@ -65,5 +65,3 @@ st = get_nums([x for x in range(1, N)])
 for i in st:
 	print(i, end=' ')
 print()
-
-
