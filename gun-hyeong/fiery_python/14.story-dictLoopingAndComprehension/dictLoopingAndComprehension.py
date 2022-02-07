@@ -18,7 +18,6 @@ for k,v in dic.items() : # 튜플 언패킹
 #뷰가 바라보는 현제 상태 : 현재 딕셔너리의 상태를 그대로 반영한다. 
 
 
-
 #dict 컴프리헨션
 
 d1 = dict(a=1,b=2,c=3)
@@ -30,7 +29,6 @@ print(d2)
 d3 = {k:v for k,v in d1.items() if v % 2 != 0}
 
 print(d3)
-
 
 ks = ['a','b','c','d']
 vs = [1,2,3,4]

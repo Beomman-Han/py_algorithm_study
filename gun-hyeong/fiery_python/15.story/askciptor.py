@@ -22,6 +22,10 @@ who(*(dic.items() ))
 def test(**a):
     print(a)
 
-
 ##test({'a':1,'b':2})
 test(a=1,b=2,c=3.)
+
+def s(a, *args):
+    print(a,args)
+
+s(1,2,3,4)

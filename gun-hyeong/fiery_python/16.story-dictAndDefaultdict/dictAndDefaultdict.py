@@ -12,7 +12,6 @@ for k in s:
 
 print(d)
 
-
 #setdefault method
 
 d = {} 
