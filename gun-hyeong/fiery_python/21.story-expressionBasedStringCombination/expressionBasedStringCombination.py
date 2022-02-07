@@ -11,7 +11,6 @@ s = "%(name)s : %(age)d" % {'name' : 'Yoon' , 'age': 23}
 
 print(s)
 
-
 # %[flags][width][.precision]f
 #[flags]   : -또는 0 또는 + 를 넣어서 특별한 신호를 줌
 #[width]   : 폭, 어느정도 넓이를 확보하고 출력할지 결정
@@ -60,7 +59,5 @@ s= '{:>10.4f}'.format(0.12)
 print(s)
 s= '{:^10.4f}'.format(0.12)
 print(s)
-
-
 s= '{:1^10.4f}'.format(0.12) # :와 ^ 사이에 입력한 문자로 채우기 
 print(s)
