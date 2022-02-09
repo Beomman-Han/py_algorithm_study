@@ -7,6 +7,7 @@
 class Simple:
     pass
 
+
 s = Simple()
 print(isinstance(s, Simple))
 
