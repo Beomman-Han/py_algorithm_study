@@ -52,5 +52,6 @@ def decrypt(key1: int, key2: int) -> str:
 
 if __name__ == "__main__":
     key1, key2 = encrypt("One Time Pad!")
+    print(key1,key2)
     result : str = decrypt(key1, key2)
     print(result)

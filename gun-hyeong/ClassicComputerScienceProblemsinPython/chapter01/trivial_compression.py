@@ -36,7 +36,7 @@ class CompressedGene:
         return self.decompress()
 
 if __name__ =="__main__":
-    from sys import getsizeof
+    from sys import getsizeof  # byte알려주는 함수 
     original: str = "ATGACAGATAGACCACAGAGAATAAGACAGAGACA" * 100
     print(f"원본: {getsizeof(original)} 바이트")
     compressed: CompressedGene = CompressedGene(original)
