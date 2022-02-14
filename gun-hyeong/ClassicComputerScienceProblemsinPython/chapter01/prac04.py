@@ -15,18 +15,14 @@ class Image_EncAndDec:
     def decrypt(self, key1, key2) -> str:
         decrypted: int = key1 ^ key2 #XOR연산
         temp: bytes = decrypted.to_bytes(len(self._file_bytes)  , "big")
-        return temp
-
-
 
 
 if __name__ == "__main__":
     test = Image_EncAndDec("/home/coder/py_algorithm_study/gun-hyeong/ClassicComputerScienceProblemsinPython/chapter01/birth.PNG")
     key1, key2 = test.encrypt()
     #print(type(key1))
-    p#rint(type(key2))
+    #rint(type(key2))
     result : str = test.decrypt(key1,key2)
     print(result)
     print(f"원본과 비교 :{test._file_bytes == result}")
-
 
